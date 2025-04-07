@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Word Scramble Game</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- Intro Screen -->
+  <div class="intro-container">
+    <div class="intro-content">
+      <h1>✨ Welcome to Word Scramble! ✨</h1>
+      <p>Test your word skills and have fun unscrambling letters!</p>
+      <button id="start-btn">Start Game</button>
+    </div>
+  </div>
+
+  <!-- Game Screen -->
+  <div class="main-container hidden">
+    <div class="game-header">
+      <h1>🌟 Word Scramble Challenge 🌟</h1>
+    </div>
+    <div class="game-container">
+      <div class="game-content">
+        <p class="scrambled-word">Loading...</p>
+        <p class="hint">Hint: <span>Loading...</span></p>
+        <input id="user-input" type="text" placeholder="Type your answer here">
+        <p class="feedback"></p>
+        <div class="buttons">
+          <button id="shuffle-btn">🔄 Shuffle Word</button>
+          <button id="submit-btn">✔ Submit Answer</button>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>✨ Good luck and have fun! ✨</p>
+    </footer>
+  </div>
+</body>
+</html>
